@@ -32,14 +32,14 @@ This app uses **[Riverpod](https://riverpod.dev)** for predictable, scalable, an
 
 ##  Project Structure
 
-lib/
-├── models/ # Data models (e.g. Place)
-├── services/ # PlaceService abstraction & implementations
-│ ├── mock_place_service.dart
-│ ├── real_place_service.dart
-│ ├── api_service.dart
-│ ├── mock_data.dart
-├── providers/ # All Riverpod providers
-├── views/ # UI components (screens, widgets)
-├── Utils/ # Assets, fonts, etc.
-└── main.dart # App entry point
+* lib/
+* ├── models/ # Data models (e.g. Place)
+* ├── services/ # PlaceService abstraction & implementations
+* │ ├── mock_place_service.dart
+* │ ├── real_place_service.dart
+* │ ├── api_service.dart
+* │ ├── mock_data.dart
+* ├── providers/ # All Riverpod providers
+* ├── views/ # UI components (screens, widgets)
+* ├── Utils/ # Assets, fonts, etc.
+* └── main.dart # App entry point
